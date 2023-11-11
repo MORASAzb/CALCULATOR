@@ -1,0 +1,41 @@
+   button {
+     display: block;
+     border: none;
+     font-size: 15px;
+     color: rgb(255, 255, 255);
+     font-weight: bold;
+     cursor: pointer;
+     border-radius: 10px;
+     outline: none;
+   }
+ div {
+ font-size: 2pc;
+ display: contents;
+ justify-content: center;
+ align-items: center;
+
+ }
+
+   button:hover {
+     background-color: #f5107b;
+   }
+
+   .equals {
+     grid-column: 3 / 5;
+     border: 1px solid white;
+
+   }
+
+   #signs {
+     border: 1px solid white;
+   }
+
+   #signs:hover {
+     background-color: rgb(233, 101, 180);
+     border: none;
+   }
+
+   .equals:hover {
+     background-color: rgb(238, 72, 171);
+     border: none;
+   }
