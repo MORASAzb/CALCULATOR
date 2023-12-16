@@ -23,7 +23,7 @@ const toLocaleString = (num) =>
 const removeSpaces = (num) => num.toString().replace(/\s/g, "");
 
 function App() {
-  console.log('0')
+
   const [calc, setCalc] = useState({
     sign: '',
     num: 0,
@@ -202,7 +202,12 @@ function App() {
           </ButtonBox>
         </Wrapper>
       </div>
+
+
     </div>
+
+
+  
 
   );
 }
